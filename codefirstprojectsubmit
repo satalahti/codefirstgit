@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style>
+      body {
+        background-color: #FFE5E5;
+        text-align: left;
+        color: #696969;
+      }
+  	   h1   {
+         color: white;
+         font-family: "Times New Roman", Times, serif;
+         font-style: italic;
+         font-size: 60px;
+         text-align: center;
+       }
+       p    {
+         color: #696969;
+         text-align: center;
+       }
+      .navbar{
+        overflow: hidden;
+        background-color: #FFC0CB;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        opacity: 0.7;
+      }
+      .navbar a{
+        float: left;
+        display: block;
+        color: #000000;
+        font-style: bold;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navbar a:hover{
+        background: #FFFFFF;
+        color: #FFC0CB;
+      }
+	</style>
+  </head>
+    <div class="navbar">
+      <a href="./">Home</a>
+      <a href="./about">About</a>
+      <a href="mailto:info@shelterdeen.com">Contact us</a>
+    </div>
+  <body>
+    <div class="submit-shelter"><br>
+      <h1>Contribute</h1>
+      <p>If you have information about a shelter that is not listed on our website, please let us know!</p>
+      <form action="./" target="_self">
+        <br><br>Email address:<br>
+        <input type="email" required /> <br /><br>
+        Information about shelter:<br>
+        <textarea rows="4" cols="40">
+        </textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
+
+
+<!--
+
+{% if "address" == "@" %}
+{% endif %}
+
+<input type="text" name="address"><br><br>
+
+-->
